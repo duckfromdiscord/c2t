@@ -149,6 +149,7 @@ function I_EventGroupParse(grp, dest_tree, xmlDoc) {
             I_CommentParse(block, _subev, xmlDoc);
         }
     }
+    _var_el.appendChild(_subev);
     dest_tree.appendChild(_var_el);
 }
 
